@@ -1,0 +1,18 @@
+<div class="info">
+	<span class="title">{%=o.title%}</span>
+	<span class="desc">{%= o.skills.join(", ")%}</span>
+	{% if (o.url) { %}
+		<a class="link" href="{%=o.url%}" target="_blank">{%= o.label || "go"%}</a>
+	{% } else { %}
+		<span class="link offline">offline</span>
+	{% } %} 
+</div>
+<div class="scroll">
+	<div class="images">
+		{% for (var i=0; i<o.img; i++){ %}
+		<div>
+			<img data-uri="assets/img/portfolio/{%=o.id%}/{%=i+1%}.jpg">
+		</div>
+		{% } %}
+	</div>
+</div>

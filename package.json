@@ -1,0 +1,56 @@
+{
+  "name": "portfolio3",
+  "description": "Static html portfolio made with assemble and browserify",
+  "version": "3.1",
+  "homepage": "https://github.com/daveswebdesigns/portfolio3",
+  "author": {
+    "name": "'dave",
+    "url": "http://github.com/daveswebdesigns/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/daveswebdesigns/portfolio3.git"
+  },
+  "bugs": {
+    "url": "https://github.com/daveswebdesigns/portfolio3/issues"
+  },
+  "engines": {
+    "node": ">=0.8"
+  },
+  "scripts": {
+    "test": "grunt assemble"
+  },
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-jsonmin": "^0.2.4",
+    "grunt-contrib-clean": "^1.0.0",
+    "grunt-contrib-coffee": "^1.0.0",
+    "grunt-contrib-stylus": "^1.2.0",
+    "grunt-contrib-uglify": "^2.2.1",
+    "handlebars-inline": "^1.0.0",
+    "grunt-postcss": "^0.8.0",
+    "grunt-assemble": "^0.6.3",
+    "grunt-browserify": "^5.0.0",
+    "grunt-contrib-watch": "^1.0.0",
+    "autoprefixer": "^6.7.7",
+    "cssnano": "^3.10.0"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/daveswebdesigns/portfolio3/blob/master/LICENSE-MIT"
+    }
+  ],
+  "keywords": [
+    "assemble",
+    "templates",
+    "handlebars",
+    "site generator",
+    "site builder",
+    "grunt",
+    "stylus",
+    "browserify",
+    "blueimp-tmpl",
+    "coffeescript"
+  ]
+}

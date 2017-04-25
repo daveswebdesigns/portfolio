@@ -1,0 +1,70 @@
+#portfolio
+	.link
+		float: right;
+		margin-top: .7em;
+		padding: 0 .6em;
+	.link.offline
+		opacity .5
+		padding 0
+	#thumbs .images
+		thumbsSize()
+		.loaded 
+			height 100% 
+			img
+				cursor pointer
+				thumbsSize()
+		&:hover
+			img
+				opacity .5
+				transition opacity .3s
+				transition-delay 0
+		div:hover img
+			opacity 1
+	#detail .images
+		largeSize()
+		.loaded 
+			height 100%
+			img
+				largeSize()
+	.info 
+		margin 8px 0 -2px
+	a
+		color lt
+		background-color gn
+		hover()
+.images
+	line-height 0
+	display inline-block
+	white-space nowrap
+	min-width 100% 
+	> div
+		min-width 15px
+		max-width 15px
+		height 15px
+		overflow hidden
+		transition all .7s
+		background-color lt
+		vertical-align top
+		margin-right p1
+		&:last-child
+			margin-right 0
+	img
+		background-color lt
+		height 100%
+		width auto
+		display block
+		opacity 0
+		transition opacity 1.3s
+	.loaded
+		max-width none
+		background-color lta(0)
+		transition-duration 1.3s
+		transition-delay 0.01s
+		transition-timing-function: ease-in-out
+		img
+			width auto
+			opacity 1 
+	
+.title
+	font-size 1.6em
+	margin-right 18px

@@ -1,0 +1,47 @@
+#contact .content
+	thinner()
+
+form
+	padding-bottom 40px
+	margin-top -3px
+
+label
+	visibility hidden
+	position absolute
+	
+input, button, textarea
+	font-family fontFamily
+	color lt
+	font-size 1em
+	box-sizing border-box
+	border none
+	margin 3px 0 0
+	transition all,.2s
+	focus()
+
+button
+	background-color gn
+	padding .4rem 2.5rem
+	hover()
+
+input, textarea
+	width 100%
+	padding .4rem 1rem
+	background-color dk
+	display block
+	resize none
+	::placeholder
+		color lt
+		opacity 1
+	&:focus::placeholder
+		color lta(.6)
+		
+.thanks
+	position absolute
+	opacity 0
+	
+.btn-wrapper
+	display inline-block
+	float right
+	&:after
+		clear right

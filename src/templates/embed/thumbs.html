@@ -1,0 +1,9 @@
+<div class="scroll">
+	<div class="images">
+		{% for (var i=0; i<o.length; i++){ %}
+		<div>
+			<img data-uri="assets/img/portfolio/thumb/{%=o[i].id%}.jpg" data-itemid="{%=o[i].id%}">
+		</div>
+		{% } %}
+	</div>
+</div>

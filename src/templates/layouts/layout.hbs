@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+	    <meta name="viewport" content="width=device-width, initial-scale=1">
+   		<title>{{site.title}}</title>
+   		<style>
+		{{{inline 'dist/assets/css/main.css'}}}
+		</style>
+		<link rel="shortcut icon" href="/assets/img/favicon.ico" >
+	</head>
+	<body>
+		<div id="outer-wrapper">
+			<header>Dave's web designs</header>
+			{{#each site.pages}}
+				{{> page}}
+			{{/each}}
+		</div>
+		<script type="text/x-tmpl" id="tmpl-portfolio">
+			{{{inline "src/templates/embed/job.html"}}}
+		</script>
+		<script type="text/x-tmpl" id="tmpl-thumbs">
+			{{{inline "src/templates/embed/thumbs.html"}}}
+		</script>
+		<script>
+			window.portfolio_data = {{{inline 'src/data/portfolio.min.json'}}};
+			{{{inline 'dist/assets/js/main.min.js'}}}
+		</script>
+	</body>
+</html>

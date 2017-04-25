@@ -1,0 +1,9 @@
+{{! all these variables from data/site.yml }}
+<div id="{{id}}">
+	<div class="label"><h1>{{id}}</h1></div>
+	<div class="wrapper">
+		<div class="content">
+			{{> (lookup . 'layout')}}
+		</div>
+	</div>
+</div>

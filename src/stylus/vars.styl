@@ -1,0 +1,56 @@
+lta(a)
+	rgba(246,247,246, a)
+dka(a)
+	rgba(17,17,18, a)
+gna(a)
+	rgba(140,195,125, a)
+tqa(a)
+	rgba(125,193,188,a)
+
+gn = gna(1)
+dk = dka(1)
+lt = lta(1)
+tq = tqa(1)
+
+glow = 0 0 10px tqa(.5)
+
+p1 = 3px
+p2 = 20px
+
+vendors = official
+perp = 100px
+
+selected()
+	background-color tq
+	box-shadow glow
+
+focus()
+	transition all 1s
+	&:focus
+		selected()
+		transition all .06s
+hover()
+	transition all 1s
+	&:hover
+		selected()
+		transition all .06s
+thinner()
+	max-width 370px
+	margin 0 auto
+
+dkScheme()
+	background-color dk
+	color lt
+ltScheme()
+	background-color lt
+	color dk
+	
+thumbsSize()
+	min-height 50px 
+	height 23vh
+	max-height 150px
+	
+largeSize()
+	min-height 200px 
+	height calc(77vh \- 56px)
+	max-height 450px 

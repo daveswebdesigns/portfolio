@@ -1,0 +1,52 @@
+*
+	font-weight normal
+h1
+	line-height 1em
+	margin 0
+h2
+	margin-top 0
+a
+	text-decoration none
+img
+	-ms-interpolation-mode: bicubic
+	
+body, html
+	height 100%  
+	min-height 100% 
+body
+	opacity 0
+	font-family 'cordia'
+	font-smooth always
+	font-smoothing antialiased
+	margin 0
+	text-transform uppercase
+	ltScheme()
+	transform translateZ(0)
+	backface-visibility hidden
+	width 100%
+	&.loaded
+		opacity 1
+
+#outer-wrapper
+	height 100% 
+	perspective 100px
+	overflow hidden
+	
+.scroll
+	overflow-x auto
+	padding-bottom p1
+	overflow-y visible
+	font-size 0
+	> * > *
+		display inline-block
+	&::-webkit-scrollbar
+		width 12px
+	&::-webkit-scrollbar-track
+		background-color lta(.2)
+	&::-webkit-scrollbar-thumb 
+		background-color lt
+		&:hover
+			selected()
+
+*:focus
+	outline none

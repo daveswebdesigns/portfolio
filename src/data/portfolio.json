@@ -1,0 +1,134 @@
+[
+  {
+    "id": "portfolio",
+    "title": "portfolio",
+    "img": 2,
+    "url": "https://github.com/daveswebdesigns/portfolio",
+    "label": "github",
+    "skills": [
+      "design",
+      "grunt",
+      "browserify",
+      "assemble.io",
+      "coffeescript",
+      "stylus",
+      "xhr2"
+    ]
+  },
+  {
+    "id": "andy",
+    "title": "Andrew Brown",
+    "img": 6,
+    "url": "http://andrewbrown.com/",
+    "skills": [
+      "design",
+      "wordpress",
+      "ajax",
+      "coffeescript",
+      "stylus"
+    ]
+  },
+ {
+    "id": "qpac",
+    "title": "QPAC",
+    "img": 7,
+    "url": "http://qpac.com.au/",
+    "skills": [
+      "sass",
+      "javascript",
+      "google maps"
+    ]
+  },
+ {
+    "id": "rylstone",
+    "title": "Rylstone Kandos",
+    "img": 6,
+    "url": "http://rylstonekandos.com/",
+    "skills": [
+      "design",
+      "wordpress",
+      "javascript",
+      "css3",
+      "php"
+    ]
+  },
+ {
+    "id": "townsq",
+    "title": "Town Square",
+    "img": 4,
+    "url": "townsq/index.html",
+    "label": "preview",
+    "skills": [
+      "svg",
+      "marionette",
+      "grunt",
+      "stylus",
+      "requirejs"
+    ]
+  },
+  {
+    "id": "kendone",
+    "title": "Ken Done",
+    "img": 11,
+    "skills": [
+      "jquery",
+      "mobile friendly",
+      "custom cms",
+      "custom e-commerce"
+    ]
+  },
+  {
+    "id": "camilla",
+    "title": "Camilla",
+    "img": 5,
+    "skills": [
+      "jquery",
+      "magento",
+      "custom cms",
+      "google maps"
+    ]
+  },
+  {
+    "id": "sass",
+    "title": "sass & bide",
+    "img": 8,
+    "skills": [
+      "as3", 
+      "responsive layout",
+      "custom e-commerce",
+      "custom flex cms",
+      "3rd party data source"
+    ]
+  },
+  {
+    "id": "animal",
+    "title": "Animal Logic",
+    "img": 12,
+    "skills": [
+      "flash",
+      "custom cms",
+      "fwa sotd"
+    ]
+  },
+  {
+    "id": "seesaw",
+    "title": "See Saw Films",
+    "img": 4,
+    "skills": [
+      "flash",
+      "custom cms",
+      "custom video player",
+      "3d"
+    ]
+  },
+  {
+    "id": "jan",
+    "title": "Jan Logan",
+    "img": 6,
+    "skills": [
+      "flash",
+      "custom cms",
+      "custom e-commerce"
+    ]
+  }
+]

@@ -1,0 +1,9 @@
+title: dave's web designs
+pages:
+  -
+    id: portfolio
+    layout: portfolio_partial
+    embedTmpl: true
+  -
+    id: contact
+    layout: contact-form
