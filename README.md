@@ -12,7 +12,7 @@ Micro (6.3 KB gzipped) portfolio using Browserify to modularise the javascript (
 
 ## To do
 
-- add mvc framework
+- test css will-change property for animation performance improvements
 - add mvc framework
 - more sections
 
