@@ -18,3 +18,5 @@ node_modules
 *.sublime-*
 
 dist
+src/js/*
+!scr/js/libs/
