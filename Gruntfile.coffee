@@ -51,11 +51,15 @@ module.exports = (grunt) ->
 				livereload: 35729
 				# change this to '0.0.0.0' to access the server from outside
 				hostname: "localhost"
-
+				base: ["<%= config.dist %>"]
+				open: true
 			livereload:
-				options:
-					open: true
-					base: ["<%= config.dist %>"]
+				options: 
+					open: target: 'http://localhost:9000/dev.html'
+			app: 
+				options: 
+					livereload: false
+					keepalive: true
 
 		coffee:
 			app:
@@ -139,25 +143,26 @@ module.exports = (grunt) ->
 	grunt.loadNpmTasks 'grunt-browserify'
 	grunt.loadNpmTasks 'grunt-postcss'
 
-	grunt.registerTask "server", [
+	# Serve
+	grunt.registerTask "s", [
 		"connect:livereload"
 		"watch"
 	]
 
-	grunt.registerTask "dev", [
+	# Dev
+	grunt.registerTask "d", [
 		"clean"
 		"coffee"
 		"browserify"
 		"uglify:dev"
 		"jsonmin"
 		"stylus"
-		"postcss"
 		"assemble"
-		"connect:livereload"
-		"watch"
+		"s"
 	]
 
-	grunt.registerTask "build", [
+	# Build
+	grunt.registerTask "b", [
 		"clean"
 		"coffee"
 		"browserify"
@@ -168,12 +173,15 @@ module.exports = (grunt) ->
 		"assemble"
 	]
 
-	# build and preview
-	grunt.registerTask "bap", [
-		"build"
-		"connect:livereload"
+	# Open
+	grunt.registerTask "o", [
+		"connect:app"
 	]
 
-	grunt.registerTask "default", ["build"]
+	# Build and Open
+	grunt.registerTask "default", [
+		"b"
+		"o"
+	]
 	
 	return
