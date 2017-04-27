@@ -2,8 +2,8 @@
 	thinner()
 
 form
-	padding-bottom 40px
 	margin-top -3px
+	clearfix()
 
 label
 	visibility hidden
@@ -16,8 +16,6 @@ input, button, textarea
 	box-sizing border-box
 	border none
 	margin 3px 0 0
-	transition all,.2s
-	focus()
 
 button
 	background-color gn
@@ -30,6 +28,7 @@ input, textarea
 	background-color dk
 	display block
 	resize none 
+	focus()
 	&::placeholder
 		color lt
 		opacity 1
@@ -43,5 +42,4 @@ input, textarea
 .btn-wrapper
 	display inline-block
 	float right
-	&:after
-		clear right
+		

@@ -1,4 +1,7 @@
 #portfolio
+	.title
+		font-size 1.6em
+		margin-right 18px
 	.link
 		float: right;
 		margin-top: .7em;
@@ -6,6 +9,13 @@
 	.link.offline
 		opacity .5
 		padding 0
+	.info 
+		margin 6px 0 -2px
+	a
+		color lt
+		background-color gn
+		hover()
+
 	#thumbs .images
 		thumbsSize()
 		.loaded 
@@ -20,18 +30,14 @@
 				transition-delay 0
 		div:hover img
 			opacity 1
+			
 	#detail .images
 		largeSize()
 		.loaded 
 			height 100%
 			img
 				largeSize()
-	.info 
-		margin 8px 0 -2px
-	a
-		color lt
-		background-color gn
-		hover()
+
 .images
 	line-height 0
 	display inline-block
@@ -58,13 +64,8 @@
 	.loaded
 		max-width none
 		background-color lta(0)
-		transition-duration 1.3s
-		transition-delay 0.01s
+		transition-delay 0s
 		transition-timing-function: ease-in-out
 		img
 			width auto
 			opacity 1 
-	
-.title
-	font-size 1.6em
-	margin-right 18px
