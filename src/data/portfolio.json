@@ -1,4 +1,42 @@
 [
+ {
+    "id": "rylstone",
+    "title": "Rylstone Kandos",
+    "img": 6,
+    "url": "http://rylstonekandos.com/",
+    "skills": [
+      "design",
+      "wordpress",
+      "javascript",
+      "css3",
+      "php"
+    ]
+  },
+ {
+    "id": "qpac",
+    "title": "QPAC",
+    "img": 7,
+    "url": "http://qpac.com.au/",
+    "skills": [
+      "sass",
+      "javascript",
+      "google maps"
+    ]
+  },  
+  {
+    "id": "andy",
+    "title": "Andrew Brown",
+    "img": 6,
+    "url": "http://andrewbrown.com/",
+    "skills": [
+      "design",
+      "wordpress",
+      "ajax",
+      "coffeescript",
+      "stylus"
+    ]
+  },
+
   {
     "id": "portfolio",
     "title": "portfolio",
@@ -15,48 +53,11 @@
       "xhr2"
     ]
   },
-  {
-    "id": "andy",
-    "title": "Andrew Brown",
-    "img": 6,
-    "url": "http://andrewbrown.com/",
-    "skills": [
-      "design",
-      "wordpress",
-      "ajax",
-      "coffeescript",
-      "stylus"
-    ]
-  },
- {
-    "id": "qpac",
-    "title": "QPAC",
-    "img": 7,
-    "url": "http://qpac.com.au/",
-    "skills": [
-      "sass",
-      "javascript",
-      "google maps"
-    ]
-  },
- {
-    "id": "rylstone",
-    "title": "Rylstone Kandos",
-    "img": 6,
-    "url": "http://rylstonekandos.com/",
-    "skills": [
-      "design",
-      "wordpress",
-      "javascript",
-      "css3",
-      "php"
-    ]
-  },
  {
     "id": "townsq",
     "title": "Town Square",
     "img": 4,
-    "url": "townsq/index.html",
+    "url": "townsq/",
     "label": "preview",
     "skills": [
       "svg",
@@ -72,7 +73,7 @@
     "img": 11,
     "skills": [
       "jquery",
-      "mobile friendly",
+      "responsive",
       "custom cms",
       "custom e-commerce"
     ]
@@ -94,10 +95,10 @@
     "img": 8,
     "skills": [
       "as3", 
-      "responsive layout",
+      "responsive",
       "custom e-commerce",
       "custom flex cms",
-      "3rd party data source"
+      "3rd party data"
     ]
   },
   {
